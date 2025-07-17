@@ -34,7 +34,7 @@ $transition: 125ms ease-in-out;
 
 $sans: 'Nunito Beta', sans-serif;
 $mono: 'Input Mono Beta', monospace;
-@import 'fonts';
+@use 'fonts';
 
 @mixin track() {
     background-color: $G300;
